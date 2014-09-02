@@ -80,6 +80,10 @@ ul.contact li {
 	padding-bottom: 5px;
 }
 
+ul.links {
+	list-style-type: none;
+}
+
 ul.links li {
 	padding-bottom: 5px;
 }
