@@ -34,8 +34,8 @@ a:active, a:hover {
 /* Useful for fixing layout issues */
 /** {
 	border: 1px dashed black;
-}
-*/
+}*/
+
 /* =================== */
 /* ===== Classes ===== */
 /* =================== */
@@ -71,15 +71,6 @@ div.pub:last-child {
 	border-bottom: none;
 }
 
-ul.contact {
-	list-style-type: none;
-	padding-left: 10px;
-}
-
-ul.contact li {
-	padding-bottom: 5px;
-}
-
 ul.links {
 	list-style-type: none;
 }
@@ -92,6 +83,17 @@ ul.links a {
 	padding-left: 5px;
 }
 
+.contact {
+	display: inline-block;
+}
+
+/* Invisible positioning element */
+.stretch {
+    width: 100%;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0;
+}
 
 /*
 	IDs
