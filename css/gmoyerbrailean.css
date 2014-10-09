@@ -9,9 +9,16 @@
 */
 
 /* zocial pictograms by Sam Collins - http://www.smcllns.com/ */
-@import url(http://weloveiconfonts.com/api/?family=zocial);
+/*@import url(http://weloveiconfonts.com/api/?family=zocial);
 [class*="zocial-"]:before{
 	font-family:'zocial',sans-serif
+}*/
+
+/* entypo pictograms by Daniel Bruce - http://danielbruce.se/ */
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+  font-size: 16px;
 }
 
 body {
