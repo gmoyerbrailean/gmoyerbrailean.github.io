@@ -126,6 +126,27 @@ ul.links a {
     line-height: 0;
 }
 
+.banner {
+	border: 1px solid black;
+	margin-bottom: 5px;
+}
+
+.img_banner td {
+	 height: 120px; 
+	 width:  700px; 
+	 vertical-align: bottom;
+	 border: 1px solid black;
+}
+
+.img_banner h2 {
+	color: white;
+	text-shadow: 2px 2px 0px #000;
+}
+
+.img_banner_spacer {
+	height: 4px;
+}
+
 /*
 	IDs
 */
