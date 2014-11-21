@@ -57,27 +57,33 @@
                 <img class="banner" src="images/people_banner_2.png" />
  -->
 
-                <table style="border: 1px solid black;">
-                  <tr class="img_banner"><td style='background-image: url("images/nature_banner.png");'>
-                    <h2 >Nature</h2>
-                  </td>
-                </tr>
-                
-                <tr class="img_banner_spacer"></tr>
+              <div id="album_banners">
+                <div>
+                  <a class="hovertext" data-album="Nature" >
+                    <img class="banner" src="images/nature_banner_bw.png" alt="Nature">
+                  </a>
+                  <!-- Use javasript to elminate hovertext, e.g.,
+                    <a style="cursor: pointer" onclick="javascript: window.location = 'http://www.stackoverflow.com/';"></a> 
+                  -->
 
-                <tr class="img_banner"><td style='background-image: url("images/webster_banner.png");'>
-                    <h2 >Webster</h2>
-                  </td>
-                </tr>
-                
-                <tr class="img_banner_spacer"></tr>
-                
-                <tr class="img_banner"><td style='background-image: url("images/people_banner_2.png");'>
-                    <h2 >People</h2>
-                  </td>
-                </tr>
+                  <div class="album">
+                    <p>Pictures coming soon!</p>
+                  </div>
+                </div>
 
-              </table>
+                <div>
+                  <a class="hovertext" data-album="Webster" >
+                    <img class="banner" src="images/webster_banner_bw.png" alt="Webster">
+                  </a>
+                </div>
+
+                <div>
+                  <a class="hovertext" data-album="People" >
+                    <img class="banner" src="images/people_banner_bw.png" alt="People">
+                  </a>
+                </div>
+              </div>
+
               </td>
             </tr>
           </table>
@@ -90,6 +96,7 @@
     <!-- JavaScript -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/photography.js"></script>
 
     <!-- Google analytics -->
     <script>
