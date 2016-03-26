@@ -61,12 +61,6 @@ a:active, a:hover {
 /* ===== Classes ===== */
 /* =================== */
 
-/* From  bootstrap */
-.starter-template {
-	padding: 40px 15px;
-	text-align: center;
-}
-
 .e {
 	font-family: entypo, sans-serif;
 	font-size: 40px;
@@ -118,22 +112,20 @@ ul.links a {
 	display: inline-block;
 }
 
-/* Invisible positioning element */
-.stretch {
-    width: 100%;
-    display: inline-block;
-    font-size: 0;
-    line-height: 0;
+.container {
+	border: 1px solid red;
 }
 
 /*
 	IDs
 */
 div #content {
-	text-align: left;
-	width: 75%;
+	border: 1px solid blue;
 	margin-left: auto;
 	margin-right: auto;
+	padding-top: 40px;
+	text-align: left;
+	width: 75%;
 }
 
 #projects > div {

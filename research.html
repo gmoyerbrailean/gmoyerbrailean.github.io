@@ -40,14 +40,16 @@
     </div><!-- /.navbar -->
 
     <div class="container">
-      <div class="starter-template">
         <div id="content">
-          <table>
-            <tr>
-              <td colspan=2><h1>Research</h1></td>
-            </tr>
-            <tr>
-              <td width=200px>
+          
+          <div class="row">
+            <div class="col-md-12">
+              <h1>Research</h1>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4 col-lg-3">
+              <div class="well">
                 <ul class="smallind">
                   <li>PhD | Current </li>
                   <li>
@@ -70,58 +72,58 @@
                   <li><a href="http://scholar.google.com/citations?hl=en&user=WMJw3T8AAAAJ&view_op=list_works&sortby=pubdate">Google Scholar</a></li>
                   <li><a href="http://www.ncbi.nlm.nih.gov/pubmed?term=moyerbrailean%20GA%5BAuthor%5D&cmd=DetailsSearch">PubMed</a></li>
                 </ul>
-              </td>
-              <td>My research focuses on developing computational methods to asses the impact of genetic variants on organismal phenotypes. Our lab attempts to characterize the effect of variants on complex traits by examining changes in chromatin accessability and gene expression surrounding these variants. Through this functional annotation, variants associated with a certain trait or disease (e.g., through GWAS) can be identified as truly causal or not.
+              </div>
+            </div>
+            <div class="col-md-8 col-lg-9">
+              <p>My research focuses on developing computational methods to asses the impact of genetic variants on organismal phenotypes. Our lab attempts to characterize the effect of variants on complex traits by examining changes in chromatin accessability and gene expression surrounding these variants. Through this functional annotation, variants associated with a certain trait or disease (e.g., through GWAS) can be identified as truly causal or not.</p>
 
-                <h2>Projects</h2>
-                <div id="projects">
-                  <div>
-                    <h3 class="inline">Annotation of regulatory variation</h3>
-                    
-                    <!-- This chunk was me experimenting with a jQuery-based show/hide toggle
-                    <div class="btn-group btn-group-xs" data-toggle="buttons">
-                      <label class="btn btn-default active" id="anno-show">
-                        <input type="radio">Show
-                      </label>
-                      <label class="btn btn-default" id="anno-hide">
-                        <input type="radio">Hide
-                      </label>
-                    </div> -->
-                    
-                    <div id="anno">
-                    <p>Functional genomics data is increasingly easier and less expensive to generate, especially when coupled with next-gen sequencing technologies. However, understanding the impact of a sequence change within this regions remains a difficult challenge to address. Using the <a href="">CENTIPDE model</a> and our newly developed <a href="">QuASAR model</a>, we have developed an approach to annotating functional regulatory regions and variation within them.</p>
-                    <p>We have set up a UCSC browser hub with our annotations, available from the project page here: <a href="http://genome.grid.wayne.edu/centisnps/">http://genome.grid.wayne.edu/centisnps/</a></p>
-                    </div>
+              <h2>Projects</h2>
+              <div id="projects">
+                <div>
+                  <h3 class="inline">Annotation of regulatory variation</h3>
+                  
+                  <!-- This chunk was me experimenting with a jQuery-based show/hide toggle
+                  <div class="btn-group btn-group-xs" data-toggle="buttons">
+                    <label class="btn btn-default active" id="anno-show">
+                      <input type="radio">Show
+                    </label>
+                    <label class="btn btn-default" id="anno-hide">
+                      <input type="radio">Hide
+                    </label>
+                  </div> -->
+                  
+                  <div id="anno">
+                  <p>Functional genomics data is increasingly easier and less expensive to generate, especially when coupled with next-gen sequencing technologies. However, understanding the impact of a sequence change within this regions remains a difficult challenge to address. Using the <a href="">CENTIPDE model</a> and our newly developed <a href="">QuASAR model</a>, we have developed an approach to annotating functional regulatory regions and variation within them.</p>
+                  <p>We have set up a UCSC browser hub with our annotations, available from the project page here: <a href="http://genome.grid.wayne.edu/centisnps/">http://genome.grid.wayne.edu/centisnps/</a></p>
                   </div>
-                </div> <!-- /#projects -->
+                </div>
+              </div> <!-- /#projects -->
 
-                <div id="publications">
-                  <h2>Publications</h2>
-            		  <div class="pub">
-            		    <p><strong>Moyerbrailean GA</strong>, GO Davis, CT Harvey, D Watza, X Wen, R Pique-Regi, and F Luca. 2015. <a href="http://biorxiv.org/content/early/2015/06/09/018416">A high-throughput RNA-seq approach to profile transcriptional responses.</a> bioRxiv. doi:10.1101/018416</p>		    
-            		  </div>
-                  <div class="pub">
-                    <p><strong>Moyerbrailean GA</strong>, CT Harvey, CA Kalita, X Wen, F Luca and R Pique-Regi. 2015. <a href="http://biorxiv.org/content/early/2014/12/05/007559">Which genetic variants in DNase I sensitivity regions are functional?</a> bioRxiv. doi:10.1101/007559.</p>
-                    </a>
-                  </div>
-                  <div class="pub">
-                    <p>Harvey CT, <strong>GA Moyerbrailean</strong>, O Davis, X Wen, F Luca and R Pique-Regi. 2015. <a href="http://bioinformatics.oxfordjournals.org/content/early/2015/01/09/bioinformatics.btu802">QuASAR: quantitative allele-specific analysis of reads.</a> Bioinformatics. doi:10.1093/bioinformatics/btu802.</p>
-                    </a>
-                  </div>
-                  <div class="pub">                    
-                    <p>Fujimoto M., <strong>GA Moyerbrailean</strong>, S Noman, JP Gizicki, ML Ram, J Henqinet, PA Green and JL Ram. 2014. <a href="http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0107534">Application of Ion Torrent sequencing to the assessment of the effect of alkali ballast water treatment on microbial community diversity.</a> PLOS ONE, 9(9):e107534</p>
-                    </a>
-                  </div>
-                  <div class="pub">
-                    <p>Bray Speth E, JL Momsen, <strong>GA Moyerbrailean</strong>, D Ebert-May, TM Long, SA Wyse and D Linton. 2010. <a href="http://www.lifescied.org/content/9/3/323.short">1, 2, 3, 4: Infusing quantitative literacy into introductory biology.</a> CBE-Life Sciences Education 9:323-332.</p>
-                    </a>
-                  </div>
-                </div><!-- ./publications -->
-              </td>
-            </tr>
-          </table>
-        </div>
-      </div>
+              <div id="publications">
+                <h2>Publications</h2>
+                <div class="pub">
+                  <p><strong>Moyerbrailean GA</strong>, GO Davis, CT Harvey, D Watza, X Wen, R Pique-Regi, and F Luca. 2015. <a href="http://biorxiv.org/content/early/2015/06/09/018416">A high-throughput RNA-seq approach to profile transcriptional responses.</a> bioRxiv. doi:10.1101/018416</p>        
+                </div>
+                <div class="pub">
+                  <p><strong>Moyerbrailean GA</strong>, CT Harvey, CA Kalita, X Wen, F Luca and R Pique-Regi. 2015. <a href="http://biorxiv.org/content/early/2014/12/05/007559">Which genetic variants in DNase I sensitivity regions are functional?</a> bioRxiv. doi:10.1101/007559.</p>
+                  </a>
+                </div>
+                <div class="pub">
+                  <p>Harvey CT, <strong>GA Moyerbrailean</strong>, O Davis, X Wen, F Luca and R Pique-Regi. 2015. <a href="http://bioinformatics.oxfordjournals.org/content/early/2015/01/09/bioinformatics.btu802">QuASAR: quantitative allele-specific analysis of reads.</a> Bioinformatics. doi:10.1093/bioinformatics/btu802.</p>
+                  </a>
+                </div>
+                <div class="pub">                    
+                  <p>Fujimoto M., <strong>GA Moyerbrailean</strong>, S Noman, JP Gizicki, ML Ram, J Henqinet, PA Green and JL Ram. 2014. <a href="http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0107534">Application of Ion Torrent sequencing to the assessment of the effect of alkali ballast water treatment on microbial community diversity.</a> PLOS ONE, 9(9):e107534</p>
+                  </a>
+                </div>
+                <div class="pub">
+                  <p>Bray Speth E, JL Momsen, <strong>GA Moyerbrailean</strong>, D Ebert-May, TM Long, SA Wyse and D Linton. 2010. <a href="http://www.lifescied.org/content/9/3/323.short">1, 2, 3, 4: Infusing quantitative literacy into introductory biology.</a> CBE-Life Sciences Education 9:323-332.</p>
+                  </a>
+                </div>
+              </div><!-- ./publications -->              
+            </div>
+
+
     </div><!-- /.container -->
 
     <!-- JavaScript -->
