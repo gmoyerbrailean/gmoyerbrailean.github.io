@@ -1,12 +1,7 @@
 /* ================================== */
-/* === Gregory Moyerbrailean 2014 === */
+/* === Gregory Moyerbrailean 2022 === */
 /* ================================== */
 
-/*
-	Thanks as always to colorSchemeDesigner (now paletton)
-	for help with color schemes:
-	http://paletton.com/#uid=7000u0kw0oumTvnufuHCaj+KXeF
-*/
 
 /* ========================= */
 /* ===== Fonts/Imports ===== */
@@ -36,7 +31,7 @@
 }
 
 body {
-  padding-top: 50px;
+	background-color: #F9F6F0;
 }
 
 tr {
@@ -44,18 +39,18 @@ tr {
 }
 
 a, a:visited {
-	color: #009C00;
+	color: #36454F;
 }
 
 a:active, a:hover {
-	color: #C30000;
+	color: #BBC4C2;
 	text-decoration: none;
 }
 
 /* Useful for fixing layout issues */
-/** {
+/* * {
 	border: 1px dashed black;
-}*/
+} */
 
 /* =================== */
 /* ===== Classes ===== */
@@ -71,59 +66,35 @@ a:active, a:hover {
 	font-size: 40px;
 }
 
-.inline {
-	display: inline;
+hr.fancy {
+	width: 15%;
+	border-color: #36454F;
 }
 
-ul.smallind {
-	list-style-type: none;
-	margin-top: 5px;
-	padding-left: 5px;
-	padding-right: 5px;
-	margin-left: 5px;
-	margin-right: 5px;
-	font-size:12px;
+div.main-text {
+	display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
-.pub {
-	padding-top: 10px;
-	border-bottom: 1px solid gray;
-}
-
-/* No bottom border on last pub */
-div.pub:last-child {
-	padding-top: 10px;
-	border-bottom: none;
-}
-
-ul.links {
-	list-style-type: none;
-}
-
-ul.links li {
-	padding-bottom: 5px;
-}
-
-ul.links a {
-	padding-left: 5px;
-}
-
-.contact {
-	display: inline-block;
+/* Fix the height on larger screens to center vertically */
+@media only screen and (min-width: 992px) {
+	.main-text {
+		height: 424px;
+	}
 }
 
 /*
 	IDs
 */
 div #content {
-	margin-left: auto;
-	margin-right: auto;
-	padding-top: 40px;
-	text-align: left;
-	width: 75%;
-}
-
-#projects > div {
-	padding-top: 10px;
-	padding-bottom: 10px;
+	display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+	text-align: center;
 }
